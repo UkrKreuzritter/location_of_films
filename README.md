@@ -21,15 +21,15 @@
 ## Приклад запуску
 Пропоную запустити таку команду у терміналі:
 >>> python main.py 2019 49.83826 24.02324 locations.list
-![Screenshot1](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_start_work.png)
+- ![Screenshot1](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_start_work.png)
 Коли термінал закінче свою роботу, то нам виведе повідомлення 'HTML file is ready!'
-![Screenshot2](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_finish_work.png)
+- ![Screenshot2](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_finish_work.png)
 Відкриваємо наш файл
-![Screenshot3](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_spawn.png)
+- ![Screenshot3](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_spawn.png)
 Ми з'являємося у Львові, неподалік парку ім. Івана Франка. Прпоную віддалитися.
-![Screenshot4](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_of_work.png)
+- ![Screenshot4](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_of_work.png)
 Зараз видно 10 місць зйомок фільмів по всій Європі та розфарбовку країн згадно з правилами. Пропоную вимкнути розмальовку країн.
-![Screenshot5](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_without_area.png)
+- ![Screenshot5](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_without_area.png)
 Зараз видно тільки мітки. Пропоную увімкнути розмальовку країн, а мітки - вимкнути.
-![Screenshot6](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_without_marks.png)
+- ![Screenshot6](https://github.com/UkrKreuzritter/location_of_films/tree/develop/screen_without_marks.png)
 
