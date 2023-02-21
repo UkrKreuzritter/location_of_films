@@ -9,7 +9,6 @@ from geopy.geocoders import Nominatim
 def read_file(path:str, data:str) -> dict:
     """
     Function reads file
-    
     """
     dict_of_films={}
     file=open(path, 'r')
@@ -52,7 +51,7 @@ def find_the_nearest(dict_of_films:dict, coordinates:tuple) -> list:
     new_list.sort()
     return new_list
 
-def draw_map(dict_of_films:dict, list_of_locations:list, coordinates:tuple):
+def draw_map(dict_of_films:dict, list_of_locations:list, coordinates:tuple) -> None:
     """
     Function creates html map
     """
@@ -64,7 +63,7 @@ def draw_map(dict_of_films:dict, list_of_locations:list, coordinates:tuple):
     country_area.add_child(folium.GeoJson(data=open('world.json', 'r',
                                             encoding='utf-8-sig').read(),
                                 style_function=lambda x: {'fillColor':
-        'cyan' if x['properties']['AREA']*10 < 3000
+        'cyan' if x['properties']['AREA']*10.5 < 3000
     else 'green' if 3000 <= x['properties']['AREA']*10.5 < 250000
     else 'yellow' if 250000 <= x['properties']['AREA']*10.5 < 1000000
     else 'orange' if 1000000 <= x['properties']['AREA']*10.5 < 3000000
